@@ -4,7 +4,7 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+
         {
             "type": "java",
             "name": "Current File",
@@ -16,7 +16,13 @@
             "name": "ContaTerminal",
             "request": "launch",
             "mainClass": "ContaTerminal",
-            "projectName": "conta-banco_c170423f"
+            "projectName": "conta-banco_c170423f",
+            "args": [
+                "1021",     // Número da Agência
+                "067-8",    // Número da Conta
+                "MARIO ANDRADE",  // Nome do Cliente
+                "237.48"    // Saldo
+            ]
         }
     ]
 }
